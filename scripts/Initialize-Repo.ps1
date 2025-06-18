@@ -20,7 +20,7 @@ git add .
 try { git commit --no-verify -m 'Add template and type stub submodules' }
 catch [System.Management.Automation.NativeCommandExitException] {}
 
-Initialize-Shell
+./j.ps1 con
 
 git add .
 try { git commit --no-verify -m 'Lock' }
@@ -29,14 +29,14 @@ catch [System.Management.Automation.NativeCommandExitException] {}
 #? Modify GitHub repo if there were not already commits in this repo
 if ($Fresh) {
     if ( !(git remote) ) {
-        git remote add origin 'https://github.com/Blake Naccarato/blue-prince.git'
+        git remote add origin 'https://github.com/blakeNaccarato/blue-prince.git'
         git branch --move --force main
     }
     gh repo edit --description (
         Get-Content '.copier-answers.yml' |
             Find-Pattern '^project_description:\s(.+)$'
     )
-    gh repo edit --homepage 'https://Blake Naccarato.github.io/blue-prince/'
+    gh repo edit --homepage 'https://blakeNaccarato.github.io/blue-prince/'
 }
 
 git push --set-upstream origin main
