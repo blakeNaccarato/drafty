@@ -25,11 +25,6 @@ blue-prince-dev = "blue_prince_dev.__main__:main"
 [tool.fawltydeps]
 deps = ["packages/_dev/pyproject.toml"]
 code = ["packages/_dev", "docs", "tests"]
-ignore_undeclared = [
-  "blue_prince_dev",
-  "blue_prince_pipeline",
-  "blue_prince",
-  "toml",
-]
+ignore_undeclared = ["blue_prince_dev", "blue_prince_pipeline", "blue_prince", "toml"]
 [tool.fawltydeps.custom_mapping]
 ruamel-yaml = ["ruamel"]
