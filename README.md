@@ -1,14 +1,14 @@
-# blue-prince
+# drafty
 
-[![All Contributors](https://img.shields.io/github/all-contributors/Blake Naccarato/blue-prince?color=ee8449&style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/github/all-contributors/blakeNaccarato/drafty?color=ee8449&style=flat-square)](#contributors)
 
-Tools for solving the mysteries and puzzles of Blue Prince.
+Blue Prince drafting assistant.
 
 ## Project information
 
-- [Changes](<https://Blake Naccarato.github.io/blue-prince/changelog.html>)
-- [Docs](<https://Blake Naccarato.github.io/blue-prince>)
-- [Contributing](<https://Blake Naccarato.github.io/blue-prince/contributing.html>)
+- [Changes](<https://blakeNaccarato.github.io/drafty/changelog.html>)
+- [Docs](<https://blakeNaccarato.github.io/drafty>)
+- [Contributing](<https://blakeNaccarato.github.io/drafty/contributing.html>)
 
 ## Contributors
 

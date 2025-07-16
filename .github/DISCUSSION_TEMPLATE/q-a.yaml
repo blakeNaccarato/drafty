@@ -6,7 +6,7 @@ body:
       label: "Please check for similar discussions first"
       options:
         - required: True
-          label: "I [searched](https://github.com/Blake Naccarato/blue-prince/discussions/categories/q-a) and couldn't find an appropriate discussion to participate in instead."
+          label: "I [searched](https://github.com/blakeNaccarato/drafty/discussions/categories/q-a) and couldn't find an appropriate discussion to participate in instead."
   - type: "textarea"
     id: "description"
     validations:

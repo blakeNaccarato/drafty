@@ -6,13 +6,13 @@ Please apply the `bug` label
 
 ### Please check that this bug hasn't been reported before
 
-- [ ] I searched [here](https://github.com/Blake Naccarato/blue-prince/issues?q=label%3Abug+sort%3Acomments-desc) or [here](https://github.com/search?q=repo%3ABlake Naccarato/blue-prince+label%3Abug&type=issues) and couldn't find a similar issue.
+- [ ] I searched [here](https://github.com/blakeNaccarato/drafty/issues?q=label%3Abug+sort%3Acomments-desc) or [here](https://github.com/search?q=repo%3AblakeNaccarato/drafty+label%3Abug&type=issues) and couldn't find a similar issue.
 
 ### Please confirm that this bug affects the latest version
 
-<!-- Please verify the issue is present in the latest version by installing it with `pip install blue-prince==0.0.0` and checking that the bug is still there #} -->
+<!-- Please verify the issue is present in the latest version by installing it with `pip install drafty==0.0.0` and checking that the bug is still there #} -->
 
-- [ ] This bug affects version `0.0.0` of `blue-prince`.
+- [ ] This bug affects version `0.0.0` of `drafty`.
 
 ### Please indicate which operating system(s) you are using
 

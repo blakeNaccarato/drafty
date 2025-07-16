@@ -2,6 +2,6 @@
   "commitConvention": "angular",
   "contributorsPerLine": 7,
   "files": ["CONTRIBUTORS.md", "README.md"],
-  "projectName": "blue-prince",
-  "projectOwner": "Blake Naccarato"
+  "projectName": "drafty",
+  "projectOwner": "blakeNaccarato"
 }

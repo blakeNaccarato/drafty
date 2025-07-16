@@ -3,25 +3,22 @@
 from cappa.base import command, invoke
 from cappa.subcommand import Subcommands
 
+from drafty_dev.cli import ElevatePyrightWarnings
 
-@command(invoke="blue_prince_dev.tools.add_change")
+
+@command(invoke="drafty_dev.tools.add_change")
 class AddChange:
     """Add change."""
 
 
-@command(invoke="blue_prince_dev.tools.get_actions")
+@command(invoke="drafty_dev.tools.get_actions")
 class GetActions:
     """Get actions used by this repository."""
 
 
-@command(invoke="blue_prince_dev.tools.sync_local_dev_configs")
+@command(invoke="drafty_dev.tools.sync_local_dev_configs")
 class SyncLocalDevConfigs:
     """Synchronize local dev configs."""
-
-
-@command(invoke="blue_prince_dev.tools.elevate_pyright_warnings")
-class ElevatePyrightWarnings:
-    """Elevate Pyright warnings to errors."""
 
 
 @command()

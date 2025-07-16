@@ -3,7 +3,7 @@ requires = ["uv-build==0.7.2"]
 build-backend = "uv_build"
 
 [project]
-name = "blue-prince-dev"
+name = "drafty-dev"
 version = "0.0.0"
 requires-python = ">=3.11"
 dependencies = [
@@ -12,7 +12,7 @@ dependencies = [
   "dulwich>=0.22.1",
   "pydantic-settings>=2.5.2",
   "python-dotenv>=1.0.1",
-  # ? Docs
+  #? Docs
   "docutils>=0.21.2",
   "myst-parser>=3.0.1",
   "numpydoc>=1.7.0",
@@ -20,16 +20,11 @@ dependencies = [
   "sphinx>=7.3.7",
 ]
 [project.scripts]
-blue-prince-dev = "blue_prince_dev.__main__:main"
+drafty-dev = "drafty_dev.__main__:main"
 
 [tool.fawltydeps]
 deps = ["packages/_dev/pyproject.toml"]
 code = ["packages/_dev", "docs", "tests"]
-ignore_undeclared = [
-  "blue_prince_dev",
-  "blue_prince_pipeline",
-  "blue_prince",
-  "toml",
-]
+ignore_undeclared = ["drafty_dev", "drafty_pipeline", "drafty", "toml"]
 [tool.fawltydeps.custom_mapping]
 ruamel-yaml = ["ruamel"]

@@ -1,3 +1,3 @@
 # Contributing
 
-Please see [the contributing guide](<https://Blake Naccarato.github.io/blue-prince/contributing.html>).
+Please see [the contributing guide](<https://blakeNaccarato.github.io/drafty/contributing.html>).

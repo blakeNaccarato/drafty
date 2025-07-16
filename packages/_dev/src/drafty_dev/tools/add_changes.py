@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 
 from dulwich.repo import Repo
 
-from blue_prince_dev.tools.types import ChangeType
+from drafty_dev.tools.types import ChangeType
 
 
 def add_change(typ: ChangeType = "change"):

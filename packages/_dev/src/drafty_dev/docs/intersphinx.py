@@ -1,6 +1,6 @@
 """Intersphinx URL handlers."""
 
-from blue_prince_dev.docs.types import IspxMappingValue
+from drafty_dev.docs.types import IspxMappingValue
 
 
 def get_url(url: str, latest: bool = False):

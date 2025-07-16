@@ -1,8 +1,8 @@
-# blue-prince
+# drafty
 
-[![All Contributors](https://img.shields.io/github/all-contributors/Blake Naccarato/blue-prince?color=ee8449&style=flat-square)](contributors)
+[![All Contributors](https://img.shields.io/github/all-contributors/blakeNaccarato/drafty?color=ee8449&style=flat-square)](contributors)
 
-Tools for solving the mysteries and puzzles of Blue Prince.
+Blue Prince drafting assistant.
 
 :::{toctree}
 :hidden:
