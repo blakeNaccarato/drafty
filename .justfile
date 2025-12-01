@@ -244,7 +244,7 @@ tool-pytest *args:
 [group('⚙️  Tools')]
 tool-docs-preview:
   {{pre}} {{uvr}} sphinx-autobuild --show-traceback docs _site \
-    {{ prepend( '--ignore', "'**/temp' '**/data' '**/apidocs' '**/*schema.json'" ) }}
+    {{ prepend( '--ignore ', "'**/temp' '**/data' '**/apidocs' '**/*schema.json'" ) }}
 
 # 📖 build docs
 [group('⚙️  Tools')]

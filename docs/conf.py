@@ -136,7 +136,6 @@ COMMON_OPTIONS = {
 }
 html_theme_options = {
     **COMMON_OPTIONS,
-    "navigation_with_keys": False,  # https://github.com/pydata/pydata-sphinx-theme/pull/1503
     "repository_branch": "main",
     "show_navbar_depth": 2,
     "show_toc_level": 4,
@@ -168,6 +167,7 @@ nb_execution_raise_on_error = True
 numfig = True
 math_eqref_format = "Eq. {number}"
 mermaid_d3_zoom = False
+suppress_warnings = ["design.grid"]
 # ! Autodoc2
 nitpicky = True
 autodoc2_packages = [f"../src/{PACKAGE}"]
