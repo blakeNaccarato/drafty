@@ -40,11 +40,11 @@ references
 
 :::::::{grid} 12
 ::::::{grid-item}
-:columns: 1
+:columns: 0.5
 
 ::::::
 ::::::{grid-item}
-:columns: 10
+:columns: 11
 
 :::::{grid} 1 1 2 2
 
@@ -65,6 +65,44 @@ The "prism"
 :alt: Alt
 A subset of eight rooms in the test draft
 ```
+
+```{figure} _static/11-gallery-paths.png
+:name: 11-gallery-paths
+:alt: Alt
+Three of four Gallery puzzle solutions associated with the three paths
+```
+
+```{figure} _static/12-dont-go.jpg
+:name: 12-dont-go
+:alt: Alt
+A warning pertaining to certain paths
+```
+
+```{figure} _static/13-safe-house.png
+:name: 13-safe-house
+:alt: Alt
+A relevant message in the Safe House
+```
+
+```{figure} _static/15-gallery-finished.png
+:name: 15-gallery-finished
+:alt: Alt
+Full Gallery puzzle solution
+```
+
+:::::
+::::::
+:::::::
+
+:::::::{grid} 12
+::::::{grid-item}
+:columns: 0.5
+
+::::::
+::::::{grid-item}
+:columns: 11
+
+:::::{grid} 1
 
 ```{figure} _static/03-map.png
 :name: 03-map
@@ -114,48 +152,6 @@ Three paths through the maze overlaid on the drawing pairs
 Letters associated with rooms indicated in {numref}`02-rosewary`
 ```
 
-```{figure} _static/11-gallery-paths.png
-:name: 11-gallery-paths
-:alt: Alt
-Three of four Gallery puzzle solutions associated with the three paths
-```
-
-```{figure} _static/12-dont-go.jpg
-:name: 12-dont-go
-:alt: Alt
-A warning pertaining to certain paths
-```
-
-```{figure} _static/13-safe-house.png
-:name: 13-safe-house
-:alt: Alt
-A relevant message in the Safe House
-```
-
-```{figure} _static/14-letters-words-safe-house.png
-:name: 14-letters-words-safe-house
-:alt: Alt
-Subset of only the Mora Jai words (and associated drawing pair letters) that are also in the Safe House message
-```
-
-```{figure} _static/15-gallery-finished.png
-:name: 15-gallery-finished
-:alt: Alt
-Full Gallery puzzle solution
-```
-
-```{figure} _static/16-letters-words-safe-house-sw.png
-:name: 16-letters-words-safe-house-sw
-:alt: Alt
-Subset of remaining drawing pair letters (and associated Mora Jai words) that could spell SWANSONG
-```
-
-```{figure} _static/17-letters-words-safe-house-blue.png
-:name: 17-letters-words-safe-house-blue
-:alt: Alt
-Subset of remaining drawing pair letters which have Blue-only Mora Jai boxes in them and could spell out the Safe House message
-```
-
 ```{figure} _static/18-words-actions.png
 :name: 18-words-actions
 :alt: Alt
@@ -174,16 +170,48 @@ Mora Jai words with certain important blocks highlighted and hues associated wit
 Mora Jai words with sections containing a hue linked to the action associated with that hue
 ```
 
+```{figure} _static/22-map-true-path.png
+:name: 22-map-true-path
+:alt: Alt
+The true path indicated on the map of the Mount Holly Blueprints
+```
+
+:::::
+::::::
+:::::::
+
+:::::::{grid} 12
+::::::{grid-item}
+:columns: 0.5
+
+::::::
+::::::{grid-item}
+:columns: 11
+
+:::::{grid} 1
+
+```{figure} _static/14-letters-words-safe-house.png
+:name: 14-letters-words-safe-house
+:alt: Alt
+Subset of only the Mora Jai words (and associated drawing pair letters) that are also in the Safe House message
+```
+
+```{figure} _static/16-letters-words-safe-house-sw.png
+:name: 16-letters-words-safe-house-sw
+:alt: Alt
+Subset of remaining drawing pair letters (and associated Mora Jai words) that could spell SWANSONG
+```
+
+```{figure} _static/17-letters-words-safe-house-blue.png
+:name: 17-letters-words-safe-house-blue
+:alt: Alt
+Subset of remaining drawing pair letters which have Blue-only Mora Jai boxes in them and could spell out the Safe House message
+```
+
 ```{figure} _static/21-letters-words-true-path.png
 :name: 21-letters-words-true-path
 :alt: Alt
 Drawing pairs and Mora Jai boxes with the true path indicated
-```
-
-```{figure} _static/22-map-true-path.png
-:name: 22-map-true-path
-:alt: Alt
-Tte true path indicated on the map of the Mount Holly Blueprints
 ```
 
 :::::
