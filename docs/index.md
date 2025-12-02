@@ -14,7 +14,29 @@ apidocs/index
 references
 :::
 
-See {numref}`00-core`.
+{numref}`00-core`
+{numref}`01-prism`
+{numref}`02-rosewary`
+{numref}`03-map`
+{numref}`04-letter-map`
+{numref}`05-word-map`
+{numref}`06-gallery`
+{numref}`07-letters`
+{numref}`08-words`
+{numref}`09-letter-paths`
+{numref}`10-rosewary-letters`
+{numref}`11-gallery-paths`
+{numref}`12-dont-go`
+{numref}`13-safe-house`
+{numref}`14-letters-words-safe-house`
+{numref}`15-gallery-finished`
+{numref}`16-letters-words-safe-house-sw`
+{numref}`17-letters-words-safe-house-blue`
+{numref}`18-words-actions`
+{numref}`19-words-actions-hue`
+{numref}`20-words-actions-linked`
+{numref}`21-letters-words-true-path`
+{numref}`22-map-true-path`
 
 :::::::{grid} 12
 ::::::{grid-item}
