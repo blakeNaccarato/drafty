@@ -51,139 +51,139 @@ references
 ```{figure} _static/00-core.png
 :name: 00-core
 :alt: Alt
-Title
+The family core
 ```
 
 ```{figure} _static/01-prism.jpg
 :name: 01-prism
 :alt: Alt
-Title
+The "prism"
 ```
 
 ```{figure} _static/02-rosewary.jpg
 :name: 02-rosewary
 :alt: Alt
-Title
+A subset of eight rooms in the test draft
 ```
 
 ```{figure} _static/03-map.png
 :name: 03-map
 :alt: Alt
-Title
+Map of rooms and walls in the Mount Holly Blueprints area with lantern and Mora Jai box colors indicated
 ```
 
 ```{figure} _static/04-letter-map.png
 :name: 04-letter-map
 :alt: Alt
-Title
+Map of drawing pairs in each room
 ```
 
 ```{figure} _static/05-word-map.png
 :name: 05-word-map
 :alt: Alt
-Title
+Blank map
 ```
 
 ```{figure} _static/06-gallery.png
 :name: 06-gallery
 :alt: Alt
-Title
+Gallery puzzle with only given letters
 ```
 
 ```{figure} _static/07-letters.png
 :name: 07-letters
 :alt: Alt
-Title
+Map of drawing pairs, overlapping word, and associated letter
 ```
 
 ```{figure} _static/08-words.png
 :name: 08-words
 :alt: Alt
-Title
+Map of words written on memos inside of Mora Jai boxes
 ```
 
 ```{figure} _static/09-letter-paths.png
 :name: 09-letter-paths
 :alt: Alt
-Title
+Three paths through the maze overlaid on the drawing pairs
 ```
 
 ```{figure} _static/10-rosewary-letters.png
 :name: 10-rosewary-letters
 :alt: Alt
-Title
+Letters associated with rooms indicated in {numref}`02-rosewary`
 ```
 
 ```{figure} _static/11-gallery-paths.png
 :name: 11-gallery-paths
 :alt: Alt
-Title
+Three of four Gallery puzzle solutions associated with the three paths
 ```
 
 ```{figure} _static/12-dont-go.jpg
 :name: 12-dont-go
 :alt: Alt
-Title
+A warning pertaining to certain paths
 ```
 
 ```{figure} _static/13-safe-house.png
 :name: 13-safe-house
 :alt: Alt
-Title
+A relevant message in the Safe House
 ```
 
 ```{figure} _static/14-letters-words-safe-house.png
 :name: 14-letters-words-safe-house
 :alt: Alt
-Title
+Subset of only the Mora Jai words (and associated drawing pair letters) that are also in the Safe House message
 ```
 
 ```{figure} _static/15-gallery-finished.png
 :name: 15-gallery-finished
 :alt: Alt
-Title
+Full Gallery puzzle solution
 ```
 
 ```{figure} _static/16-letters-words-safe-house-sw.png
 :name: 16-letters-words-safe-house-sw
 :alt: Alt
-Title
+Subset of remaining drawing pair letters (and associated Mora Jai words) that could spell SWANSONG
 ```
 
 ```{figure} _static/17-letters-words-safe-house-blue.png
 :name: 17-letters-words-safe-house-blue
 :alt: Alt
-Title
+Subset of remaining drawing pair letters which have Blue-only Mora Jai boxes in them and could spell out the Safe House message
 ```
 
 ```{figure} _static/18-words-actions.png
 :name: 18-words-actions
 :alt: Alt
-Title
+Mora Jai words with certain important blocks highlighted
 ```
 
 ```{figure} _static/19-words-actions-hue.png
 :name: 19-words-actions-hue
 :alt: Alt
-Title
+Mora Jai words with certain important blocks highlighted and hues associated with certain words indicated
 ```
 
 ```{figure} _static/20-words-actions-linked.png
 :name: 20-words-actions-linked
 :alt: Alt
-Title
+Mora Jai words with sections containing a hue linked to the action associated with that hue
 ```
 
 ```{figure} _static/21-letters-words-true-path.png
 :name: 21-letters-words-true-path
 :alt: Alt
-Title
+Drawing pairs and Mora Jai boxes with the true path indicated
 ```
 
 ```{figure} _static/22-map-true-path.png
 :name: 22-map-true-path
 :alt: Alt
-Title
+Tte true path indicated on the map of the Mount Holly Blueprints
 ```
 
 :::::
