@@ -38,13 +38,13 @@ references
 {numref}`21-letters-words-true-path`
 {numref}`22-map-true-path`
 
-:::::::{grid} 12
+:::::::{grid} 24
 ::::::{grid-item}
-:columns: 0.5
+:columns: 1
 
 ::::::
 ::::::{grid-item}
-:columns: 11
+:columns: 22
 
 :::::{grid} 1 1 2 2
 
@@ -94,13 +94,13 @@ Full Gallery puzzle solution
 ::::::
 :::::::
 
-:::::::{grid} 12
+:::::::{grid} 24
 ::::::{grid-item}
-:columns: 0.5
+:columns: 1
 
 ::::::
 ::::::{grid-item}
-:columns: 11
+:columns: 22
 
 :::::{grid} 1
 
@@ -180,13 +180,13 @@ The true path indicated on the map of the Mount Holly Blueprints
 ::::::
 :::::::
 
-:::::::{grid} 12
+:::::::{grid} 24
 ::::::{grid-item}
-:columns: 0.5
+:columns: 1
 
 ::::::
 ::::::{grid-item}
-:columns: 11
+:columns: 22
 
 :::::{grid} 1
 
