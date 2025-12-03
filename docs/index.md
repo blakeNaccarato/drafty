@@ -14,7 +14,36 @@ apidocs/index
 references
 :::
 
-{numref}`00-core`
+## Unlocking the family core
+
+:::::::::{tab-set}
+::::::::{tab-item} Hint
+We learn from Blue Tents notes that the family core is located in the family Vault and that it is unlocked by the sum of its digits. Doing so reveals...
+::::::::
+::::::::{tab-item} Solution
+...the note in {numref}`00-core`.
+:::::::{grid} 12
+::::::{grid-item}
+:columns: 12
+
+:::::{grid} 1
+
+```{figure} _static/00-core.png
+:name: 00-core
+:alt: Alt
+The family core
+```
+
+:::::
+::::::
+:::::::
+::::::::
+:::::::::
+
+## (Spoilers!) UNDER CONSTRUCTION
+
+::::::::{dropdown}
+
 {numref}`01-prism`
 {numref}`02-rosewary`
 {numref}`03-map`
@@ -44,12 +73,6 @@ references
 :columns: 12
 
 :::::{grid} 1
-
-```{figure} _static/00-core.png
-:name: 00-core
-:alt: Alt
-The family core
-```
 
 ```{figure} _static/01-prism.jpg
 :name: 01-prism
@@ -186,3 +209,4 @@ The true path indicated on the map of the Mount Holly Blueprints
 :::::
 ::::::
 :::::::
+::::::::
