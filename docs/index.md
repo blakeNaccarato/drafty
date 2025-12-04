@@ -14,14 +14,14 @@ apidocs/index
 references
 :::
 
-## Unlocking the family core
+## The family core
 
 :::::::::{tab-set}
-::::::::{tab-item} Hint
-We learn from Blue Tents notes that the family core is located in the family Vault and that it is unlocked by the sum of its digits. Doing so reveals...
-::::::::
-::::::::{tab-item} Solution
-...the note in {numref}`00-core`.
+::::::::{tab-item} Family core
+We learn from Blue Tents notes that the family core is located in the family Vault and that it is unlocked by the sum of its digits. Doing so reveals the cipher in {numref}`00-core`. Hints sometimes show up on the shelves of the Lost & Found, and if you look after having unlocked the family core, you'll find a scrap of paper that says ""CLUE = 3". What could that mean?
+
+The piece of information you need to make sense of the cipher, and of `CLUE = 3`, is quite a reach, literally. Where would you go if you wanted to learn your letters and numbers?
+
 :::::::{grid} 12
 ::::::{grid-item}
 :columns: 12
@@ -37,6 +37,21 @@ The family core
 :::::
 ::::::
 :::::::
+::::::::
+::::::::{tab-item} ABCs
+The colors and placement of letters in the alphabet and counting numbers in the first grade classroom follow the same pattern, which is supposed to suggest that we can substitute A-Z with 1-26 (or vice versa), known as the "a1z26" substitution cipher. With this information, we can transform our Lost & Found `CLUE` hint into `3 12 21 5`.
+
+Now that `CLUE` has become four numbers, what can we do next to get `CLUE = 3`? Well, what operation have you learned that you can perform on four numbers? You must have used it recently, if you're here now!
+::::::::
+::::::::{tab-item} A familiar operation
+Let's try core reduction. We always start with a positive number equal to the leftmost digit in a group of four digits, the nwe must subtract, multiply, or divide our running total by the next digit, then use a different operation on the next digit, then use the last operation on the final digit. We want to arrive at a whole number, and the lowest whole number attainable by any combination of operations is the "reduced" number. We won't need to worry about successive application of core reduction in this puzzle.
+
+So, `CLUE` became "3 12 21 5". If we reduce like `3 * 12 - 21 / 5` (being mindful to apply each operation left-to-right, rather than following order-of-operations), we get `3`!
+
+If you were to try this with each of the words in {numref}`00-core`, you would get a number for each word. But what if you wanted to get a single letter back for each word?
+::::::::
+::::::::{tab-item} There and back again
+The solution to the cipher in {numref}`00-core` involves applying the "a1z26" substitution, reducing the resulting core, then applying "a1z26" again to convert the single resulting number (all cores reduce to numbers less than or equal to 26), which reveals the decoded message: "STILL WATER TINTS BLANK BOOKS". Now, what could that mean?
 ::::::::
 :::::::::
 
@@ -204,6 +219,12 @@ Drawing pairs and Mora Jai boxes with the true path indicated
 :name: 22-map-true-path
 :alt: Alt
 The true path indicated on the map of the Mount Holly Blueprints
+```
+
+```{figure} _static/23-blue-prince-no-spoilers.jpg
+:name: 23-blue-prince-no-spoilers
+:alt: Alt
+This is the last image on this page so that page previews don't spoil the true path
 ```
 
 :::::
