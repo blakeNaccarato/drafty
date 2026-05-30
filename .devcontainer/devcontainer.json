@@ -6,7 +6,7 @@
       "version": "7.4.1"
     },
     "ghcr.io/devcontainers/features/python:1.6.2": {
-      "version": "3.11"
+      "version": "3.14"
     },
     "ghcr.io/devcontainers/features/desktop-lite:1.2.0": {
       "noVncVersion": "1.4.0"
@@ -50,6 +50,7 @@
       },
       "extensions": [
         "aaron-bond.better-comments@3.0.2",
+        "astral-sh.ty@2026.28.0",
         "bierner.markdown-preview-github-styles@2.0.4",
         "charliermarsh.ruff@2024.30.0",
         "davidanson.vscode-markdownlint@0.55.0",
@@ -61,6 +62,7 @@
         "GitHub.remotehub@0.62.0",
         "github.vscode-github-actions@0.26.3",
         "github.vscode-pull-request-github@0.88.1",
+        "iterative.dvc@1.2.14",
         "ms-azuretools.vscode-docker@1.29.1",
         "ms-python.debugpy@2024.6.0",
         "ms-python.python@2024.8.1",
@@ -71,7 +73,6 @@
         "njpwerner.autodocstring@0.6.1",
         "redhat.vscode-yaml@1.15.0",
         "rodolphebarbanneau.python-docstring-highlighter@0.2.3",
-        "ryanluker.vscode-coverage-gutters@2.11.1",
         "sourcery.sourcery@1.19.0",
         "stkb.rewrap@1.16.3",
         "TakumiI.markdowntable@0.11.0",

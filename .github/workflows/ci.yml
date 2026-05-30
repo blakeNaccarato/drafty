@@ -88,7 +88,7 @@ jobs:
       - run: |
           ./j.ps1 ci tool-fawltydeps
           ./j.ps1 tool-fawltydeps --config-file packages/_dev/pyproject.toml
-  pyright:
+  ty:
     needs: "env"
     runs-on: "${{ needs.env.outputs.actions_runner }}"
     steps:
@@ -99,10 +99,7 @@ jobs:
         with:
           version: "${{ needs.env.outputs.uv_version }}"
           enable-cache: true
-      - run: "./j.ps1 ci"
-      - uses: "jakebailey/pyright-action@3bdde3b31d26f0f1f5de051b1fbd7a536a9a4e7f" # v2.3.1
-        with:
-          pylance-version: "${{ needs.env.outputs.pyright_python_pylance_version }}"
+      - run: "./j.ps1 ci tool-ty --error-on-warning"
   test:
     needs: "env"
     strategy:
@@ -112,8 +109,7 @@ jobs:
           - "ubuntu-24.04"
           - "windows-2025"
         python:
-          - "3.11"
-          - "3.12"
+          - "3.14"
     runs-on: "${{ matrix.runner }}"
     steps:
       - uses: "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332" # v4.1.7

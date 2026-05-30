@@ -1,9 +1,9 @@
+#? Ignore template file
+.copier-answers.yml
 #? Prettier clobbers Myst-specific syntax in notebooks
 *.py
 *.ipynb
 #? Markdownlint handles this
 *.md
-#? Don't traverse typings
-typings
 #? Generated workflow
 .github/workflows/env.yml

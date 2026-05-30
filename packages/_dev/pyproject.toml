@@ -1,19 +1,18 @@
 [build-system]
-requires = ["uv-build==0.7.2"]
+requires = ["uv-build==0.11.11"]
 build-backend = "uv_build"
+[tool.uv.build-backend]
+module-root = "."
 
 [project]
 name = "drafty-dev"
 version = "0.0.0"
-requires-python = ">=3.11"
+requires-python = ">=3.14"
 dependencies = [
   "cappa>=0.22.4",
   "cyclopts>=3.14.2",
-  "devtools>=0.12.2",
   "dulwich>=0.22.1",
-  "ipython>=9.3.0",
   "pydantic-settings>=2.5.2",
-  "pydantic>=2.9.1",
   "python-dotenv>=1.0.1",
   #? Docs
   "docutils>=0.21.2",
@@ -31,6 +30,6 @@ drafty-dev = "drafty_dev.__main__:main"
 [tool.fawltydeps]
 deps = ["packages/_dev/pyproject.toml"]
 code = ["packages/_dev", "docs", "tests"]
-ignore_undeclared = ["drafty_dev", "drafty_pipeline", "drafty", "toml"]
+ignore_undeclared = ["drafty", "drafty_dev", "drafty_pipeline", "drafty"]
 [tool.fawltydeps.custom_mapping]
 ruamel-yaml = ["ruamel"]

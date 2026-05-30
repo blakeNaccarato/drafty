@@ -7,7 +7,6 @@ Blue Prince.
 :::{toctree}
 :hidden:
 contributing
-examples/index
 changelog
 contributors
 apidocs/index
